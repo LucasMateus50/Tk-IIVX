@@ -1,9 +1,9 @@
 import socket
 
-#criar objeto socket
+
 server = socket.socket()
 
-#esperar conecçao
+
 server.bind(('localhost',5028))
 
 server.listen(5)
