@@ -85,7 +85,7 @@ MDScreen:
                     pos_hint: {'center_x': .2, "center_y": .5}
                     on_release: Snackbar(text="Encrypt").open()
                     text: "Matlab for Engineers"
-                    on_press: app.math1()
+                    on_press: app.matematica1()
                     
                 MDRoundFlatButton:
                     text_color: 'white'
@@ -197,7 +197,7 @@ class Main(MDApp):
 
 
 
-    def math1(self):
+    def matematica1(self):
 
        webbrowser.open('https://www.elsevier.com/books/essential-matlab-for-engineers-and-scientists/valentine/978-0-12-374883-6')
        
