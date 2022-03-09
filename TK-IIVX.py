@@ -5,7 +5,7 @@ from kivy.properties import ObjectProperty
 
 from kivymd.app import MDApp
 from kivymd.uix.boxlayout import MDBoxLayout
-import socket
+
 
 
 
