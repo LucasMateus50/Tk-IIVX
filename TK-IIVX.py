@@ -9,7 +9,34 @@ from kivymd.uix.boxlayout import MDBoxLayout
 
 
 
-#def MATH5():
+def MATH1():
+	webbrowser.open('https://www.elsevier.com/books/essential-matlab-for-engineers-and-scientists/valentine/978-0-12-374883-6')
+	
+	
+
+def MATH2():
+	webbrowser.open('https://www.elsevier.com/books/programming-mathematics-using-matlab/oberbroeckling/978-0-12-817799-0')
+
+
+
+def MATH3():
+	webbrowser.open('https://www.packtpub.com/product/practical-discrete-mathematics/9781838983147')
+
+
+
+def MATH4():
+	webbrowser.open('https://www.packtpub.com/product/mathematica-data-visualization/9781783282999')
+
+
+
+def MATH5():
+	webbrowser.open('https://www.packtpub.com/product/mathematical-foundation-for-ai-and-machine-learning-video/9781789613209')
+
+
+
+def MATH6():
+	webbrowser.open('https://www.packtpub.com/product/matlab-for-machine-learning/9781788398435')
+
 
 
 
@@ -83,7 +110,7 @@ MDScreen:
                     text_color: 'white'
                     line_color: 0.1067, 0.0933, 0, 0.4118
                     pos_hint: {'center_x': .2, "center_y": .5}
-                    on_release: Snackbar(text="SITE").open()
+                    on_release: Snackbar(text="Site").open()
                     text: "Matlab for Engineers"
                     on_press: app.math1()
                     
@@ -91,7 +118,7 @@ MDScreen:
                     text_color: 'white'
                     line_color: 0.1067, 0.0933, 0, 0.4118
                     pos_hint: {'center_x': .5, "center_y": .5}
-                    on_release: Snackbar(text="SITE").open()
+                    on_release: Snackbar(text="Site").open()
                     text: "MATLAB"
                     on_press: app.math2()
                     
@@ -99,7 +126,7 @@ MDScreen:
                     text_color: 'white'
                     line_color: 0.1067, 0.0933, 0, 0.4118
                     pos_hint: {'center_x': .8, "center_y": .5}
-                    on_release: Snackbar(text="SITE").open()
+                    on_release: Snackbar(text="Site").open()
                     text: "MATH"
                     on_press: app.math3()
               
@@ -124,7 +151,7 @@ MDScreen:
                     text_color: 'white'
                     line_color: 0.1067, 0.0933, 0, 0.4118
                     pos_hint: {'center_x': .2, "center_y": .1}
-                    on_release: Snackbar(text="SITE").open()
+                    on_release: Snackbar(text="Site").open()
                     text: "Mathematica Data Visualization"
                     on_press: app.math4()
                     
@@ -132,7 +159,7 @@ MDScreen:
                     text_color: 'white'
                     line_color: 0.1067, 0.0933, 0, 0.4118
                     pos_hint: {'center_x': .5, "center_y": .1}
-                    on_release: Snackbar(text="SITE").open()
+                    on_release: Snackbar(text="Site").open()
                     text: "MATH"
                     on_press: app.math5()
                 
@@ -141,7 +168,7 @@ MDScreen:
                     text_color: 'white'
                     line_color: 0.1067, 0.0933, 0, 0.4118
                     pos_hint: {'center_x': .8, "center_y": .1}
-                    on_release: Snackbar(text="SITE").open()
+                    on_release: Snackbar(text="Site").open()
                     text: "MATLAB for Machine Learning"
                     on_press: app.math6()
              
@@ -199,27 +226,32 @@ class Main(MDApp):
 
     def math1(self):
 
-       webbrowser.open('https://www.elsevier.com/books/essential-matlab-for-engineers-and-scientists/valentine/978-0-12-374883-6')
+       MATH1()
+        
        
     def math2(self):
-
-       webbrowser.open('https://www.elsevier.com/books/programming-mathematics-using-matlab/oberbroeckling/978-0-12-817799-0')
+	
+       MATH2()
+		       
 
     def math3(self):
 
-       webbrowser.open('https://www.packtpub.com/product/practical-discrete-mathematics/9781838983147')
+       MATH3()  
+ 	    
 
     def math4(self):
 
-       webbrowser.open('https://www.packtpub.com/product/mathematica-data-visualization/9781783282999')
+       MATH4() 
+ 	     
        
     def math5(self):
 
-       webbrowser.open('https://www.packtpub.com/product/mathematical-foundation-for-ai-and-machine-learning-video/9781789613209')
+       MATH5()
+	
        
     def math6(self):
 
-       webbrowser.open('https://www.packtpub.com/product/matlab-for-machine-learning/9781788398435')
+       MATH6()
 
 
     
