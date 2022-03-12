@@ -14,10 +14,6 @@ from kivymd.uix.boxlayout import MDBoxLayout
 
 
 KV = '''
-#:import Snackbar kivymd.uix.snackbar.Snackbar
-#:import Clipboard kivy.core.clipboard.Clipboard
-
-
 <ContentNavigationDrawer>
 
 
@@ -82,24 +78,21 @@ MDScreen:
                 MDRoundFlatButton:
                     text_color: 'white'
                     line_color: 0.1067, 0.0933, 0, 0.4118
-                    pos_hint: {'center_x': .2, "center_y": .5}
-                    on_release: Snackbar(text="Encrypt").open()
+                    pos_hint: {'center_x': .2, "center_y": .5}                    
                     text: "Matlab for Engineers"
                     on_press: app.matematica1()
                     
                 MDRoundFlatButton:
                     text_color: 'white'
                     line_color: 0.1067, 0.0933, 0, 0.4118
-                    pos_hint: {'center_x': .5, "center_y": .5}
-                    on_release: Snackbar(text="Encrypt").open()
+                    pos_hint: {'center_x': .5, "center_y": .5}                    
                     text: "MATLAB"
                     on_press: app.math2()
                     
                 MDRoundFlatButton:
                     text_color: 'white'
                     line_color: 0.1067, 0.0933, 0, 0.4118
-                    pos_hint: {'center_x': .8, "center_y": .5}
-                    on_release: Snackbar(text="Encrypt").open()
+                    pos_hint: {'center_x': .8, "center_y": .5}                    
                     text: "MATH"
                     on_press: app.math3()
               
@@ -123,16 +116,14 @@ MDScreen:
                 MDRoundFlatButton:
                     text_color: 'white'
                     line_color: 0.1067, 0.0933, 0, 0.4118
-                    pos_hint: {'center_x': .2, "center_y": .1}
-                    on_release: Snackbar(text="Encrypt").open()
+                    pos_hint: {'center_x': .2, "center_y": .1}                   
                     text: "Mathematica Data Visualization"
                     on_press: app.math4()
                     
                 MDRoundFlatButton:
                     text_color: 'white'
                     line_color: 0.1067, 0.0933, 0, 0.4118
-                    pos_hint: {'center_x': .5, "center_y": .1}
-                    on_release: Snackbar(text="Encrypt").open()
+                    pos_hint: {'center_x': .5, "center_y": .1}                   
                     text: "MATH"
                     on_press: app.math5()
                 
@@ -140,8 +131,7 @@ MDScreen:
                 MDRoundFlatButton:
                     text_color: 'white'
                     line_color: 0.1067, 0.0933, 0, 0.4118
-                    pos_hint: {'center_x': .8, "center_y": .1}
-                    on_release: Snackbar(text="Encrypt").open()
+                    pos_hint: {'center_x': .8, "center_y": .1}                   
                     text: "MATLAB for Machine Learning"
                     on_press: app.math6()
              
