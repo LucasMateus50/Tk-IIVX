@@ -83,7 +83,7 @@ MDScreen:
                     text_color: 'white'
                     line_color: 0.1067, 0.0933, 0, 0.4118
                     pos_hint: {'center_x': .2, "center_y": .5}
-                    on_release: Snackbar(text="Site").open()
+                    on_release: Snackbar(text="SITE").open()
                     text: "Matlab for Engineers"
                     on_press: app.math1()
                     
@@ -91,7 +91,7 @@ MDScreen:
                     text_color: 'white'
                     line_color: 0.1067, 0.0933, 0, 0.4118
                     pos_hint: {'center_x': .5, "center_y": .5}
-                    on_release: Snackbar(text="Site").open()
+                    on_release: Snackbar(text="SITE").open()
                     text: "MATLAB"
                     on_press: app.math2()
                     
@@ -99,7 +99,7 @@ MDScreen:
                     text_color: 'white'
                     line_color: 0.1067, 0.0933, 0, 0.4118
                     pos_hint: {'center_x': .8, "center_y": .5}
-                    on_release: Snackbar(text="Site").open()
+                    on_release: Snackbar(text="SITE").open()
                     text: "MATH"
                     on_press: app.math3()
               
@@ -124,7 +124,7 @@ MDScreen:
                     text_color: 'white'
                     line_color: 0.1067, 0.0933, 0, 0.4118
                     pos_hint: {'center_x': .2, "center_y": .1}
-                    on_release: Snackbar(text="Site").open()
+                    on_release: Snackbar(text="SITE").open()
                     text: "Mathematica Data Visualization"
                     on_press: app.math4()
                     
@@ -132,7 +132,7 @@ MDScreen:
                     text_color: 'white'
                     line_color: 0.1067, 0.0933, 0, 0.4118
                     pos_hint: {'center_x': .5, "center_y": .1}
-                    on_release: Snackbar(text="Site").open()
+                    on_release: Snackbar(text="SITE").open()
                     text: "MATH"
                     on_press: app.math5()
                 
@@ -141,7 +141,7 @@ MDScreen:
                     text_color: 'white'
                     line_color: 0.1067, 0.0933, 0, 0.4118
                     pos_hint: {'center_x': .8, "center_y": .1}
-                    on_release: Snackbar(text="Site").open()
+                    on_release: Snackbar(text="SITE").open()
                     text: "MATLAB for Machine Learning"
                     on_press: app.math6()
              
